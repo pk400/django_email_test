@@ -1,0 +1,6 @@
+<h1>Email test</h1>
+
+<form action={% url 'index' %} method="POST">
+  {% csrf_token %}
+  <button name="send_email">Send email</button>
+</form>
