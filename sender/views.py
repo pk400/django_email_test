@@ -11,8 +11,8 @@ def index(request):
         message = EmailMessage(
             subject="Test Email",
             body="This is a test email",
-            from_email="joel@greenspacehealth.com",
-            to=["joel+patient324@greenspacehealth.com"],
+            from_email="heyitsaro.joel@gmail.com",
+            to=["heyitsaro.joel+test@gmail.com"],
         )
         message.metadata = {
             "hello": "world",
